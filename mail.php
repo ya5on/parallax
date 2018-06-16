@@ -1,7 +1,7 @@
 <?php
 if (isset ($_POST['contactFF'])) {
-  $to = "spaunfrom@gmail.com";
-  $from = "";
+  $to = "";
+  $from = "from@gmail.com";
   $subject = "Заполнена контактная форма на сайте ".$_SERVER['HTTP_REFERER'];
   $message = "Имя: ".$_POST['nameFF']."\nКонтакты ".$_POST['contactFF']."\nПроект: ".$_POST['projectFF']."\n\nIP: ".$_SERVER['REMOTE_ADDR'];
  
